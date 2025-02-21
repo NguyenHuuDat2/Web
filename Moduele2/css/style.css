@@ -1,0 +1,26 @@
+
+    
+        #doan_1 {
+        font-size:20px;
+        border-color:green;
+        border-style: solid;
+        border-width: 10px;
+
+    }
+  
+    #doan_2,#doan_3{
+        font-size:20px;
+        border-color:grey;
+        border-style: solid;
+        border-width: 10px;
+
+    }
+    .dungchung{
+        font-size:20px;
+        border-color:rebeccapurple;
+        border-style: solid;
+        border-width: 10px;
+
+    }
+    
+    

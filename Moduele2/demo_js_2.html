@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Page Title</title>
+</head>
+
+<body>
+    <input id="so_1" type="text" placeholder="Số thứ nhất"><br><br>
+    <input id="so_2" type="text" placeholder="Số thứ hai"><br><br>
+    <input id="ket_qua" type="text" placeholder="Kết quả" disabled><br><br>
+    <button onclick="tinh_tong();">Tính tổng</button>
+
+    <script>
+        function tinh_tong() {
+            var so_thu_nhat = parseInt(document.getElementById('so_1').value);
+            var so_thu_hai = parseInt(document.getElementById('so_2').value);
+            var tong = so_thu_nhat + so_thu_hai;
+            document.getElementById('ket_qua').value = tong;
+        }
+    </script>
+
+</body>
+
+</html>
